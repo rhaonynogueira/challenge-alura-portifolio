@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofólio Rhaony Nogueira</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Rhaony Nogueira</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburguer-nav">
+        <div class="logo">Rhaony Nogueira</div>
+        <div class="hamburguer-menu">
+            <div class="hamburguer-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#sobremim" onclick="toggleMenu()">Sobre mim</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#hobbies" onclick="toggleMenu()">Hobbies</a></li>
+                <li><a href="#formação" onclick="toggleMenu()">Formação</a></li>
+                <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Foto de Perfil do Rhaony Nogueira">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Olá, eu sou</p>
+            <h1 class="title">Rhaony Nogueira</h1>
+            <p class="section__text__p2">Desenvolvedor Frontend</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/meucv.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contato'">Contato</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Meu Perfil do Linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/rhaonynogueira/'">
+                <img src="./assets/github.png" alt="Meu Perfil do Github" class="icon" onclick="location.href='https://github.com/rhaonynogueira'">
+            </div>
+        </div>
+    </section>
+    <section id="sobremim">
+        <p class="section__text__p1">Conheça Mais</p>
+        <h1 class="title">Sobre Mim</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Imagem de perfil" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p>Olá, sou o Rhaony Nogueira!
+
+                        Atualmente, estou trilhando o caminho da Administração de Empresas, mas há algo mais pulsante dentro de mim: a paixão pela tecnologia e a curiosidade insaciável pelo mundo da programação. Como estudante na Alura e membro da Turma 6 do projeto Next One, estou prestes a mergulhar de cabeça nessa aventura digital.
+                        
+                        A cada linha de código, sinto a empolgação de construir algo do zero, de transformar ideias em realidade. Afinal, a programação é como um quebra-cabeça gigante, e cada algoritmo é uma peça que se encaixa perfeitamente para formar algo único. E sabe o que mais me fascina? A comunidade vibrante e colaborativa que permeia esse universo. Programadores, designers, entusiastas: todos compartilhando conhecimento, debatendo soluções e celebrando os pequenos triunfos.
+                        
+                        Então, aqui estou eu, com a caneta digital na mão (ou melhor, os dedos no teclado) e o coração acelerado. Seja bem-vindo ao meu mundo de linhas e loops, onde bugs são desafios e cada “Hello, World!” é uma pequena vitória.
+                        
+                        Vamos aprender, criar e nos divertir nessa jornada</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="ícone seta" class="icon arrow" onclick="location.href='./#skills'"/>
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore meus</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Desenvolvedor Frontend</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone Experiência" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <P>Intermediário</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone Experiência" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <P>Intermediário</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone Experiência" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <P>Intermediário</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone Experiência" class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <P>Intermediário</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone Experiência" class="icon">
+                            <div>
+                                <h3>Node JS</h3>
+                                <P>Intermediário</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="ícone seta" class="icon arrow" onclick="location.href='./#hobbies'"/>
+    </section>
+    <section id="hobbies">
+        <p class="section__text__p1">Conheça meus</p>
+        <h1 class="title">Hobbies</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Meus Hobbies favoritos</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone check" class="icon">
+                            <div>
+                                <h3>Tocar e cantar</h3>
+                                <P>Sou metido a cantor</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone check" class="icon">
+                            <div>
+                                <h3>Ler</h3>
+                                <P>Livros que me ajudarm ir mais longe</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone check" class="icon">
+                            <div>
+                                <h3>Video Game</h3>
+                                <P>Sempre quando dá (nunca dá)</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone check" class="icon">
+                            <div>
+                                <h3>Assistir Filmes e Séries</h3>
+                                <P>Tenho muitas séries pra por em dia</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone check" class="icon">
+                            <div>
+                                <h3>Chamegar meu cachorro</h3>
+                                <P>"Segura meu poodle"</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="icone check" class="icon">
+                            <div>
+                                <h3>Cuidar da mente e corpo</h3>
+                                <P>Ir pra academia não é fácil</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="ícone seta" class="icon arrow" onclick="location.href='./#formacao'"/>
+    </section>
+    <section id="formacao">
+        <p class="section__text__p1">Conheça minhas</p>
+        <h1 class="title">Formações</h1>
+
+        <div class="about-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="ícone de experiencia" class="icon"/>
+                    <h3>Experiência</h3>
+                    <p>1+ ano <br>Desenvolvedor Frontend</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets//education.png" alt="ícone de graduação" class="icon"/>
+                    <h3>Graduação em andamento</h3>
+                    <p>Administração de Empresa <br>Unifametro</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="ícone seta" class="icon arrow" onclick="location.href='./#projetos'"/>
+    </section>
+    <section id="projetos">
+        <p class="section__text__p1">Navegue pelos os meus</p>
+        <h1 class="title">Projetos recentes</h1>
+            <div class="experience-details-container">
+                <div class="about-container">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-1.png" alt="projeto 1" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Projeto Um</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='http://github.com/rhaonynogueira/jogo-do-numero-secreto'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='http://jogo-tau-silk.vercel.app/'">
+                                Ver Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-2.png" alt="projeto 2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Projeto Dois</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='http://github.com/rhaonynogueira/challengealura-encriptador'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='http://challengealura-encriptador.vercel.app'">
+                                Ver Demo
+                            </button>
+                        </div>
+                    </div>    
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-3.png" alt="projeto 3" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Projeto Três</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='http://github.com/rhaonynogueira/aluraorgano'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='http://aluraorgano-pearl.vercel.app'">
+                                Ver Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="ícone seta" class="icon arrow" onclick="location.href='./#contato'"/>
+    </section>
+    <section id="contato">
+        <div class="interface">
+            <h2 class="titulo">CONTATO</h2>
+            <p>Que entrar em contato comigo? <br>Preencha o formulário ao lado e entrarei em contato o mais rápido possível</p>
+            </p>
+
+            <section class="formulario">   
+                <form action="https://formsubmit.co/el/wogiri" method="post" class="principal__formulario" data-formulario>
+                    <fieldset class="formulario__campo">
+                        <label class="campo__etiqueta" for="nome"></label>
+                        <input name="nome" id="nome" class="campo__escrita" placeholder="Digite seu nome completo:" type="text" minlength="5" maxlength="50" required onchange="toggleButton()" oninput="verificarTamanho()" />
+                        <span class="mensagem-erro"></span>
+                    </fieldset>
+                    <fieldset class="formulario__campo">
+                        <label class="campo__etiqueta" for="email"></label>
+                        <input name="email" id="email" class="campo__escrita" placeholder="Coloque seu melhor email:" type="email" minlength="4" required onchange="toggleButton()" />
+                        <span class="mensagem-erro"></span> 
+                    </fieldset>
+                    <fieldset class="formulario__campo">
+                        <label class="campo__etiqueta" for="assunto"></label>
+                        <input name="assunto" id="assunto" class="campo__escrita" placeholder="Digite o assunto:" type="text" minlength="4" maxlength="50" required onchange="toggleButton()" oninput="verificarTamanhoAssunto()" />
+                        <span class="mensagem-erro"></span>
+                    </fieldset>
+                    <fieldset class="formulario__campo">
+                        <label class="campo__etiqueta" for="inputMensagem"></label>
+                        <textarea name="inputMensagem" id="inputMensagem" class="campo__escrita"  cols="25" rows="10" placeholder="Escreva aqui sua mensagem" maxlength="300" required onchange="toggleButton()" oninput="verificarTamanhoMensagem();toggleButton()"></textarea>
+                        <span class="mensagem-erro"></span>
+                    </fieldset>
+                    <button class="formulario__botao" id="enviar" type="submit" onclick="enviarFormulario()" disabled>Enviar</button>
+                </form>
+            </section>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#sobremim">Sobre mim</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Rhaony Nogueira. Challenge Portofólio Alura </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
